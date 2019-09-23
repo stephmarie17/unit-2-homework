@@ -59,8 +59,13 @@ form {
 }
 
 footer {
+    margin-top: 20px;
     background-color: #666666 !important;
-    color: white !important;
     border-top: 8px solid #4aaaa5;
     font-size: 10px;
 } 
+
+#footer-text {
+    color: white !important;
+    text-align: center;
+}
