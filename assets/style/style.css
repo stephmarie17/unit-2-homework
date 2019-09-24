@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-image: url(../images/subtle_grunge.png);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -10,21 +11,23 @@ h2 {
     margin-top: 20px;
     font-weight: bold;
     font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
 }
 
 .navbar-brand {
     padding: 10px 20px;
-    margin-left: 15.75%;
     background-color: #4aaaa5;
     color: white !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
     font-weight: bold;
+    margin-left: 40px;
 }
 
 .navbar-nav {
-    position: relative;
-    margin-left: 35.75%;
+    float: right;
 }
 
 .navbar-nav li {
@@ -38,6 +41,10 @@ h2 {
     max-width: 960px;
 }
 
+#bio-content {
+    margin-top: 20px;
+}
+
 form {
     margin: 20px;
     padding: 20px;
@@ -48,6 +55,11 @@ form {
     margin-top: 20px;
     max-width: 960px;
     padding: 20px;
+}
+
+#button-color {
+    background-color: #4aaaa5;
+    color: white;
 }
 
 #portfolio-content {
@@ -67,5 +79,5 @@ footer {
 
 #footer-text {
     color: white !important;
-    text-align: center;
+    text-align: center !important;
 }
