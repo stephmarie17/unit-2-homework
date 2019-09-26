@@ -16,6 +16,8 @@ h2 {
     border-bottom-color: #cccccc;
 }
 
+/* Styling for NavBar */
+
 .navbar-brand {
     padding: 10px 20px;
     background-color: #4aaaa5;
@@ -26,16 +28,26 @@ h2 {
     margin-left: 15.5%;
 }
 
-a {
+a:link {
     color: #cccccc;
+    text-decoration: none;
 }
 
-a.visited {
+a:visited {
     color: grey;
+    text-decoration: none;
 }
 
-a.hover {
+a:hover {
     color: #4aaaa5;
+    text-decoration: bold;
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 
 #navbarNav {
@@ -43,8 +55,7 @@ a.hover {
     margin-left: 25.5%;
 }
 
-#navbarNav li {
-}
+/*Styling for page content*/
 
 #about-me {
     background-color: white;
@@ -53,8 +64,13 @@ a.hover {
     max-width: 960px;
 }
 
+.img-thumbnail {
+    float: left;
+}
+
 #bio-content {
     margin-top: 20px;
+    clear: both;
 }
 
 form {
@@ -82,6 +98,8 @@ form {
     padding: 20px;
 }
 
+/* Styling for footer*/
+
 footer {
     margin-top: 20px;
     background-color: #666666 !important;
@@ -91,7 +109,8 @@ footer {
 
 .navbar-text {
     color: white !important;
-    text-align: center;
+    text-align: center !important;
+    margin: 0 auto;
 }
 
 /*
@@ -105,5 +124,13 @@ footer {
         text-align: center;
     }
 
+}
 
+@media screen and (max-width: 768px) {
+    footer {
+        position: sticky;
+        margin: 0;
+        clear: both;
+        overflow: hidden;
+    }
 }
