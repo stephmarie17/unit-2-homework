@@ -60,6 +60,7 @@ a:hover {
 #about-me {
     background-color: white;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     max-width: 960px;
 }
@@ -101,7 +102,7 @@ form {
 /* Styling for footer*/
 
 footer {
-    margin-top: 20px;
+    margin-top: 20px !important;
     background-color: #666666 !important;
     border-top: 8px solid #4aaaa5;
     font-size: 10px;
@@ -127,6 +128,8 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
+    
     footer {
         position: sticky;
         margin: 0;
